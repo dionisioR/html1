@@ -1,0 +1,188 @@
+<!-- <!DOCTYPE> é uma declaração, não uma tag -->
+<!-- informa ao navegador que será utilizado html5 -->
+<!DOCTYPE html>
+
+<!-- início do html5 -->
+<!-- lang -  especifica o idioma do conteúdo do elemento -->
+<html lang="pt-br">
+
+<!-- É um contêiner para metadados  -->
+<!-- Local onde colocamos as informações sobre o documento html, essas informações não são exibidas -->
+
+<head>
+
+    <!-- Informa ao navegador o conjunto de caracteres usado na página -->
+    <meta charset="UTF-8">
+
+    <!-- Força o IE a usar as definições de CSS mais recentes, e evita que ele quebre o visual -->
+    <!-- no Modo de Compatibilidade. -->
+    <!-- eu recomendo que não utilizem o IE para abrir suas páginas, existem muitos navegadores melhores -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Fornece ao navegador instruções sobre como controlar o dimensionamento da página onde a largura da página deve serguir a largura do dispositivo. -->
+
+    <!-- Configurando a janela de visualização para que seu site fique bem em todos os dispositivos -->
+
+    <!-- width=device-width - a largura da página deve seguir a largura do dispositivo -->
+    <!-- initial-scale=1.0 - parte define o nível de zoom inicial quando a página é carregada pela primeira vez pelo navegador. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Defina um título para seu documento HTML -->
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- titulo -->
+    <h1>Título - hierarqui nível 01 </h1>
+    <h2>Título - hierarqui nível 02 </h2>
+    <h3>Título - hierarqui nível 03 </h3>
+    <h4>Título - hierarqui nível 04 </h4>
+    <h5>Título - hierarqui nível 05 </h5>
+    <h6>Título - hierarqui nível 06 </h6>
+
+    <hr>
+    <!-- parágrafo -->
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dignissimos rem est, placeat enim quos quam
+        omnis odit odio amet eligendi eaque consectetur, necessitatibus, nulla saepe adipisci voluptatum porro aliquam?
+    </p>
+    <hr>
+    <!-- quebrando a linha  -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit nam illum dolor <br />
+        voluptatum blanditiis quo placeat rem velit voluptatem tempora cum rerum libero nemo quisquam ab,
+        <br />distinctio incidunt explicabo?
+    </p>
+    <hr>
+
+    <!-- itálico normal -->
+    <p>
+        <i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta culpa non officiis laboriosam
+            deserunt nulla, corrupti dolorem? Adipisci amet voluptate fuga magni tempora iure, impedit consequuntur
+            ipsum quos odio!
+        </i>
+    </p>
+    <hr>
+
+    <!-- itálico semântico -->
+    <p>
+        <em>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta culpa non officiis laboriosam
+            deserunt nulla, corrupti dolorem? Adipisci amet voluptate fuga magni tempora iure, impedit consequuntur
+            ipsum quos odio!
+        </em>
+    </p>
+
+    <hr>
+    <!-- negrito normal -->
+    <p>
+        <b>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ut tenetur non nisi, reiciendis sed
+            blanditiis veritatis incidunt quaerat repellendus voluptate cupiditate odio. Laudantium, iure debitis.
+            Delectus nam eum animi!
+        </b>
+    </p>
+    <hr>
+    <!-- negrito semântico -->
+    <p>
+        <strong>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quaerat voluptates impedit quas
+            doloremque non, fuga vel praesentium molestias? Ullam perspiciatis ipsam perferendis modi consequatur, odit
+            magnam assumenda voluptatum ut.
+        </strong>
+    </p>
+    <hr>
+    <!-- texto com risco -->
+    <p>
+        <del>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vitae suscipit repellat iste
+            molestiae, error eum. Est corrupti non, maiores placeat sapiente ipsa! Molestiae excepturi pariatur,
+            possimus non beatae nihil.
+        </del>
+    </p>
+    <hr>
+    <!-- texto marcado -->
+    <p>
+        <mark>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, illum fugit esse dolorem molestiae
+            cupiditate magnam id consequuntur? In rerum libero consequuntur laborum eveniet. Pariatur illo enim non
+            quaerat quis!
+        </mark>
+    </p>
+    <hr>
+    <!-- texto um pouco menor -->
+    <p>
+        <small>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam quod dolores eius autem accusamus corrupti
+            natus quam, veritatis repellendus, maiores porro neque eos, praesentium nemo dicta. Sint asperiores
+            voluptatibus voluptates!
+        </small>
+    </p>
+    <hr>
+    <!-- texto sublinhado -->
+    <p>
+        <ins>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, sed ratione architecto officia quis porro
+            odit fugiat unde harum a ex? Quidem eius temporibus assumenda voluptates consequuntur vel sequi repellendus.
+        </ins>
+    </p>
+    <hr>
+    <!-- texto na parte superior -->
+    <p>
+        H<sup>2</sup>O
+    </p>
+    <hr>
+    <!-- texto na parte inferior -->
+    <p>
+        X<sup>2</sup>
+    </p>
+    <hr>
+    <!-- indica um bloco de código -->
+    <code>
+        if(number % 2 == 0){
+            Console.WriteLine("Numero PAR");
+        }else{
+            Console.WriteLine("Numero ÍMPAR");
+        }
+    </code>
+    <hr>
+    <!-- indica um texto pré formatado -->
+    <pre>
+        <code>
+    if(number % 2 == 0){
+        Console.WriteLine("Numero PAR");
+    }else{
+        Console.WriteLine("Numero ÍMPAR");
+    }
+        </code>
+    </pre>
+    <hr>
+    <!-- citação simples -->
+    <p>
+        Aula preparada pelo <q>Canal RD3W</q> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi blanditiis
+        itaque mollitia illo dolorem animi iste necessitatibus rerum fuga voluptatem eum sint placeat, dolores aut
+        excepturi nemo! Earum, ab corrupti!
+    </p>
+    <hr>
+    <!-- citação completa  -->
+    <blockquote cite="Desenvolvido por RD3W">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quae aut quibusdam aliquid vel? Nostrum quo
+        nihil minima. Ea repellendus, quis est laborum modi tenetur nobis. Excepturi illum recusandae debitis!
+    </blockquote>
+    <hr>
+    <!-- abreviação -->
+    <p>
+        O <abbr title="Sistema Operacional">S.O.</abbr> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas
+        eligendi animi unde dolore, adipisci alias! Optio, nisi? Iste repellat ullam blanditiis voluptatum tempore
+        commodi quaerat doloremque. Placeat sunt iste maiores?
+    </p>
+    <!-- Inserindo imagem -->
+    <!-- pexels.com -->
+    <!-- undraw.co -->
+    <!-- Comentar - Direitos autorais / propriedade intelectual / qualidade vs tamanho -->
+    <img src="undraw_static_assets_rpm6.svg" alt="imagem ilustrativa html, css e js">
+
+</body>
+
+</html>
